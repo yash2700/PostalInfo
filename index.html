@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="first">
+    <h3>MY Public IP ADDRESS : &nbsp;</h3>
+    <button id="getData">Get Data</button>
+    </div>
+    <div class="second">
+        <div class="top">
+            <div class="up">
+                <p id="lat">Lat : </p>
+                <p id="city">City : </p>
+                <p id="org">Organisation : </p>
+            </div>
+            <div class="down">
+                <p id="long">Long : </p>
+                <p id="region">Region : </p>
+                <p id="host">Hostname : </p>
+            </div>
+        </div>
+        <div class="Map">
+        <iframe src=""   frameborder="0" style="border:0" id="map"></iframe>
+    </div>
+        <div class="details">
+            <p id="time">Time Zone : </p>
+            <p id="date">Date And Time : </p>
+            <p id="pin">Pincode : </p>
+            <p id="message">Message : </p>
+        </div>
+        <div class="search">
+            <span class="material-symbols-outlined material-icons search-icon">
+                search
+                </span>
+                <input type="text" id="search" placeholder="Filter">
+        </div>
+        <div class="postal-data">
+   
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
